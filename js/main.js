@@ -1,5 +1,11 @@
 function show() {
    var element=document.getElementById("search_input")
-   var element2=document.getElementById("bottom_left")
+   
    element.classList.toggle("active")
 }
+
+function show_menu() {
+    var element=document.getElementById("menu_bar")
+    
+    element.classList.toggle("menu_active")
+ }

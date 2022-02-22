@@ -173,8 +173,25 @@ body {
     display: block;
 }
 
-#Bottom .menubar{
-    position: relative;
-    top: -50px;
-    right: 1rem;
+#Bottom .menubaricon{
+   font-size: 2rem;
+   cursor: pointer;
 }
+#Bottom .menubaricon{
+    font-size: 2rem;
+    cursor: pointer;
+ }
+ #Bottom .menu_bar{
+    position: fixed;
+    right: -20%;
+    top: 7rem;
+    width: 0;
+    height: 250px;
+    background-color: aqua;
+    transition: 0.4s;
+    
+ }
+ #Bottom .menu_active{
+    width: 60%;
+    
+ }
