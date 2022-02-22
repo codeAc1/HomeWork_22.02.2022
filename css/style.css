@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #262626;
+    
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+#Top{
+    background-color: #f6f7f8;
+    padding: 10px;
+}
+#Top .left_link{
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    width: 100%;
+
+}
+
+#Top .left_link .left {
+    font-size: 14px;
+    color: #666;
+    margin-right: 0.8rem;
+    font-weight: 400;
+    text-decoration:none;  
+}
+#Top .left_link .right {
+    border: 1.5px solid #0056c1;
+    border-radius: 40px;
+    color: #0056c1;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 3px 12px;
+    text-decoration: none; 
+    transition: .2s;
+}
+#Top .left_link .right:hover {
+   background-color: #0056c1;
+   color:#fff ;
+}
+#Top .left_link .left:hover{
+    text-decoration:underline;
+}
+#Top .right_link .search{
+    cursor: pointer;
+    
+    padding-right: 0.5rem!important;
+    margin-right: 1rem;
+
+}
+#Top .right_link .search_icon{
+    margin-right: 8px;
+    font-size: 0.8rem;
+}
+#Top .right_link .search_str{
+    margin-right: 8px;
+    color: #666!important;
+    font-weight: 300;
+    font-size: 1rem;
+}
+#Top .right_link .select_lang{
+    cursor: pointer;
+    padding-right: 0.25rem!important;
+    margin-right: 1rem;
+}
+#Top .right_link .select_lang .lang{
+    color: #666!important;
+    font-weight: 300;
+    font-size: 1rem;
+}
+#Top .right_link .select_lang .lang_btn a{
+    display: inline-block;
+    color: #666!important;
+    transform: rotate(180deg);
+    font-weight: 400;
+    font-size: 20px;
+    transition: .2s;
+}
+#Top .right_link .call_center{
+    cursor: pointer;
+}
+#Top .right_link .call_center i{
+    margin-right: 2px;
+    font-size: 12px;
+    color: gray;
+}
+#Top .right_link .call_center .phone{
+    margin-right: 2px;
+    font-size: 1rem;
+    color: gray;
+    font-weight: 600;
+}
+#Bottom .left{
+    
+    padding: 1rem 2rem;
+    
+    
+}
+#Bottom .left .logo img{
+    width: 100%;
+}
+#Bottom .left .left_link{
+    padding-left: 3rem;
+}
+#Bottom .left .left_link a{
+    text-decoration: none;
+    margin-right: 1rem;
+    color: #666;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: .4s;
+
+}
+#Bottom .left .left_link a:hover{   
+    color: black;
+}
+#Bottom .left .left_link .first_link{
+    text-decoration: none;
+    margin-right: 1rem;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 600;
+}
+#Bottom .right{
+    cursor: pointer;
+}
+#Bottom .right .icon{
+    font-size: 26px;
+    margin-right: 1rem;
+    color: #0056c1;
+}
+#Bottom .right .right_link{
+    font-size: 1rem;
+    margin-right: 1rem;
+    color: #0056c1;
+    font-weight: 500;
+}
+#Bottom .left{
+    position: relative;
+}
+#Bottom .serach_inp{
+    position: absolute;
+    height: 13%;
+    width: 100%;
+    
+
+}
+
+#Bottom .serach_inp  input{
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+#Bottom .serach_inp {
+    display: none;
+    z-index: 1;
+    
+}
+#Bottom .active{
+    display: block;
+}
+
+
