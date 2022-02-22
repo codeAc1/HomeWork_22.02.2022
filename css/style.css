@@ -183,15 +183,29 @@ body {
  }
  #Bottom .menu_bar{
     position: fixed;
-    right: -20%;
+    right: -5%;
     top: 7rem;
     width: 0;
     height: 250px;
-    background-color: aqua;
+    
     transition: 0.4s;
+   
+    
+ }
+ #Bottom .menu_bar a{
+    
+   color: #fff;
+   text-decoration: none;
+   display: block;
+   text-align: center;
+   margin-top: 0.5rem;
+   background-color: #666;
+   padding: 4px 8px;
+   border: 1px solid;
+   border-radius: 20px;
     
  }
  #Bottom .menu_active{
-    width: 60%;
-    
+    width: 40%;
  }
+
