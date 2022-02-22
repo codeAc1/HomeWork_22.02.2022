@@ -150,8 +150,6 @@ body {
     position: absolute;
     height: 13%;
     width: 100%;
-    
-
 }
 
 #Bottom .serach_inp  input{
@@ -159,14 +157,24 @@ body {
     height: 100%;
     font-size: 2rem;
     padding-left: 1rem;
+    background-color: #fff;
+    border: 0px solid;
+    
+    color: rgb(78, 75, 75);
+}
+#Bottom .serach_inp  input:focus {
+    outline: none;
 }
 #Bottom .serach_inp {
     display: none;
-    z-index: 1;
-    
+    z-index: 1;    
 }
 #Bottom .active{
     display: block;
 }
 
-
+#Bottom .menubar{
+    position: relative;
+    top: -50px;
+    right: 1rem;
+}
